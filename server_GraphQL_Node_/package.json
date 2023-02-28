@@ -1,0 +1,27 @@
+{
+  "name": "server_graphql_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "devStart":"nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IamVishnuSivaprasadan/server_GraphQL_Node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IamVishnuSivaprasadan/server_GraphQL_Node/issues"
+  },
+  "homepage": "https://github.com/IamVishnuSivaprasadan/server_GraphQL_Node#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
